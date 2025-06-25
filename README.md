@@ -4,7 +4,7 @@ This repository contains a collection of Python programming assignments covering
 
 ## Assignment Status Overview
 
-| Assignment | Title | Status |
+| Assignment | Title |
 |------------|-----------------------------------------------|----------------|
 | 1 | Basic Python Concepts |
 | 2 | Control Structures in Python |
