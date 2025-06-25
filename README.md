@@ -51,6 +51,6 @@ This repository contains a collection of Python programming assignments covering
 ### Advanced Applications
 13. **Price Tracer Application** - Web scraping and price monitoring
 14. **OpenCV Practicals** - Computer vision applications
-15 &16. **Selenium Automation** - Web automation and data collection
+15. &16. **Selenium Automation** - Web automation and data collection
 17. **Chat Application** - Real-time communication system
 
