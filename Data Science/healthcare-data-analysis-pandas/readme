@@ -1,1 +1,98 @@
 
+#  Healthcare Data Analysis using Pandas
+
+A real-world inspired data analysis project demonstrating how raw hospital encounter data can be cleaned, processed, and transformed into actionable insights using **Python & Pandas**.
+
+This project focuses on handling missing values, filtering relevant information, and aggregating patient records to support better healthcare decision-making.
+
+---
+
+##  Business Problem
+
+Hospitals generate massive patient encounter datasets.  
+However, raw medical data often contains:
+
+- Missing cost values
+- Irrelevant columns
+- Inconsistent records
+- Unstructured information
+
+Without cleaning and summarizing the data, hospitals cannot:
+- Estimate treatment costs
+- Analyze encounter types
+- Understand payer distributions
+- Improve operational efficiency
+
+This project converts raw hospital records → meaningful healthcare insights.
+
+---
+
+## Objectives
+
+- Clean real-world messy healthcare dataset
+- Handle missing medical cost values
+- Filter important medical attributes
+- Aggregate encounter records
+- Extract business insights from patient data
+
+---
+
+##  Tech Stack
+
+- Python
+- Pandas
+- Jupyter Notebook
+
+---
+
+##  Dataset Features Used
+
+| Column | Description |
+|------|------|
+| Id | Encounter ID |
+| Patients | Patient Identifier |
+| ENCOUNTERCLASS | Type of encounter |
+| BASE_ENCOUNTER_COST | Treatment cost |
+| PAYER | Insurance provider |
+| REASONDESCRIPTION | Medical reason |
+
+---
+
+##  Key Operations Performed
+
+### 1. Data Exploration
+- Loaded encounter dataset
+- Checked data types and null values
+
+### 2. Data Cleaning
+- Identified missing values
+- Replaced missing treatment costs using median values
+
+### 3. Data Filtering
+- Selected relevant medical columns
+- Removed unnecessary attributes
+
+### 4. Aggregation & Analysis
+- Grouped encounters
+- Summarized patient costs
+- Analyzed payer distribution
+
+---
+
+##  Learning Outcomes
+
+This project demonstrates practical data analyst skills:
+
+✔ Data cleaning  
+✔ Handling missing values  
+✔ Feature selection  
+✔ GroupBy aggregation  
+✔ Business-oriented analysis  
+
+---
+
+##  How to Run
+
+```bash
+pip install pandas
+jupyter notebook Patients_Records_CaseStudy.ipynb
